@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us Form</title>
+</head>
+<body>
+    <style>
+      label {float: left; width: 12em; text-align: right;}
+      input, textarea {text-align: left;}
+      input, submit {text-align: left;}
+      p.indent {padding-left: 12em}
+    select {
+        width: 200px;
+        height: 20px;
+        border-width: 1px;
+        border-color:black
+}
+      input[type="text"]{
+          width: 200px;
+          height: 20px;
+          border-width: 1px;
+          border-color: black
+}
+       textarea {
+           border-width: 1px;
+           border-color:black
+}  
+    </style>
+      <form action="fakePage.html" method="POST">
+          <label id="FirstNameLabel" for="FirstName">First Name:&nbsp &nbsp</label>
+          <input id="FirstName" name="FirstName" type="text" /><br/>
+        <br/>
+           <label id="LastNameLabel" for="LastName">Last Name:&nbsp &nbsp</label>
+           <input id="LastName" name="LastName" type="text" /><br/>
+        <br/>
+        <label id="EmailLabel" for="Email">Email:&nbsp &nbsp</label>
+        <input id="Email" name="Email" type="text" /><br/>   
+        <br/>
+        <label>Type of License:&nbsp &nbsp</label>  
+        <input type="radio" name="answer" value="Business" checked/>Business   <input type="radio" name="answer" value="Persibak"/>Personal<br/>
+         <br/>
+        <label id="ReasonLabel" for="ReasonChoices">Reason:&nbsp &nbsp</label>   
+         <select name="Reason" value="Reason:">
+            <option value="SelectReason">Select Reason</option>
+            <option value="Software Support">SoftwareSupport</option>
+            <option value="Hardware Support">HardwareSupport</option>
+            <option value="Information Request">InformationRequest</option>
+        </select><br/>
+        <br/>
+        <label id="InfoLabel" for="AdditionalInfo">Additional Information:&nbsp &nbsp</label>
+        <textarea id="Info" name="AddlInfo"></textarea><br/>
+        <br/>
+        <div style="position: absolute; left: -80px; top: 260px; width:26.5%;text-align:right;"><class="auto-style1" style="height: 4px" /><input type="checkbox" name="OnlyOption" value=I have read the terms of service." unchecked/>&nbsp &nbspI have read the terms of service<br/></div>
+        <br/>
+        <div style="position: absolute; left: 0px; top: 300px; width:26.5%;text-align:center;"><class="auto-style1" style="height: 4px" /><input type="submit" name="send" value="Send Request"/><class="auto-style1" style="height: 4px" /></div>
+    </form>  
+    </body>
+    </html
+
