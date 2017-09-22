@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Zippy's Restaurant</title>
+    </head>
+    <body>
+        <center><h1>Zippy's Restaurant</h1></center>
+        <hr 
+        <br/>
+        <a href="home.html">Home</a>&nbsp &nbsp<a href="Menu.html">Menu</a>&nbsp &nbsp<a href="Contact Us.html">Contact Us</a>
+        <hr
+        <br/>
+        <br/>
+        <div style="margin:0 auto;width:50%;text-align:left">
+        <style>
+                label {float: left; width: 12em; text-align: right;}
+                input, textarea {text-align: left;}
+                input, submit {text-align: left;}
+                p.indent {padding-left: 12em}
+                select {
+                width: 200px;
+                height: 20px;
+                border-width: 1px;
+                border-color:black
+                }
+                input[type="text"]{
+                width: 200px;
+                height: 20px;
+                border-width: 1px;
+                border-color: black
+                }
+                textarea {
+                width: 200px;
+                height: 40px;    
+                border-width: 1px;
+                border-color:black
+                } 
+        </style>
+            <form action="#" method="POST">
+                <label id="NameLabel" for="Name">Name:&nbsp &nbsp</label>
+                <input id="Name" name="Name" type="text" /><br/>
+                <br/>
+                <label id="EmailLabel" for="Email">Email:&nbsp &nbsp</label>
+                <input id="Email" name="Email" type="text" /><br/> 
+                <br/>
+                <label id="PhoneLabel" for="Phone">Phone:&nbsp &nbsp</label>
+                <input id="Phone" name="Phone" type="text" /><br/> 
+                <br/>
+                <label id="ReasonLabel" for="ReasonChoices">Reason for Inquiry:&nbsp &nbsp</label> 
+                <select name="Reason" value="Reason:">
+                <option value="Catering">Catering</option>
+                <option value="Private Party">Private Party</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+                </select><br/>
+                <br/>
+                <label id="InfoLabel" for="AdditionalInfo">Additional Information:&nbsp &nbsp</label>
+                <textarea id="Info" name="AddlInfo"></textarea><br/>
+                <br/>
+                <label>Have you been to the restaurant?:&nbsp &nbsp &nbsp &nbsp</label> 
+                <input type="radio" name="answer" value="No" checked/>No<input type="radio" name="answer" value="Yes"/>Yes<br/>
+                <br/>
+                <label>Best days to contact you: &nbsp &nbsp</label>
+                <input type="checkbox" name="One" value="M" unchecked/>M<input type="checkbox" name="Two" value="T" unchecked/>T<input type="checkbox" name="Three" value="W" unchecked/>W<input type="checkbox" name="Four" value="Th" unchecked/>Th<input type="checkbox" name="Five" value="F" unchecked/>F<br/>
+            </div>
+                <br/>
+                <br/>
+                <div style="position: absolute; left: 0px; top: 500px; width:85%; text-align:center;"><input type="submit" name="send" value="Send Request"/></div>
+            </form> 
+            <div style="position: absolute; left: 0px; top: 1300px; width:100%;text-align:center;"><hr
+                <center><h3>1 Come to Eat Place, NH, 03830</h3></center>
+                <center><h3>Call Us: ITS-DELICIOUS</h3></center>
+                <center><h3>487-335-424687</h3></center>
+            </div>
+    </body>
+</html
+                
