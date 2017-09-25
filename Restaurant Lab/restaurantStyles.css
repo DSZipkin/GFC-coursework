@@ -3,6 +3,21 @@ h1 {color: navy;
     text-align: center;
     font-family: 'Comic Sans MS';
 }
+a.one:link {color:royalblue;}
+a.one:visited {color:blue;}
+a.one:hover {color:purple;font-weight:bold;}
+a.one:active { text-decoration: none;}
+
+a.two:link {color:royalblue;}
+a.two:visited {color:blue;}
+a.two:hover {color:purple;font-weight:bold;}
+a.two:active { text-decoration: none;}
+
+a.three:link {color:royalblue;}
+a.three:visited {color:blue;}
+a.three:hover {color:purple;font-weight:bold;}
+a.three:active { text-decoration: none;}
+
 hr {border: 1px solid navy;
     width: 100%;
     }
