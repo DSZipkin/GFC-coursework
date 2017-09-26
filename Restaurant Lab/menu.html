@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">    
 <title>Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link href="restaurantStyles.css"
 rel="stylesheet"
 type="text/css"/>
@@ -15,13 +19,75 @@ body {background-color: lightcyan;
 <body>
 <h1>Zippy's Restaurant</h1>
 <hr> 
-<a class="one" href="home.html">Home</a>&nbsp &nbsp
-<a class="two" href="Menu.html">Menu</a>&nbsp &nbsp
-<a class="three" href="Contact Us.html">Contact Us</a>
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+        <br/>                   
+        <a class="one" href="home.html"><span class="glyphicon glyphicon-home"></span></a>&nbsp &nbsp
+        <a class="two" href="Menu.html">Menu</a>&nbsp &nbsp
+        <a class="three" href="Contact Us.html">Contact Us</a>
+        </div>
+</nav>
 <hr>
 <br/>
 <br/>
-<table align="center">
+<div class="container">
+        <div class="row">
+                <div class="col-md-4"><p><h3>Burger & Fries</h3></p>
+                <p><center>An American Classic!<br/>Your choice - with or without cheese<br/>Pickle, onion, tomato, and lettuce<br/>Served with our famous thick cut<br/>french fries<br/>$7.95</center></p>
+                </div>                
+                <div class="col-md-4"><p><h3>Hot Dog & Chips</h3></p>
+                <p><center>A Summer Classic!<br/>Your choice - white or wheat bun<br/>Relish, mustard and ketchup<br/>Served with our house-made chips<br/>$7.95</center></p>
+                </div>
+                <div class="col-md-4"><p><h3>Italian Sausage and Peppers></h3></p>
+                <p><center>An All-Time Favorite!!<br/>Your choice - mild or spicy<br/>Cole Slaw<br/>Served with garlic mashers<br/>$10.95</center></p>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-4"><p><h3>Tenderloin Sandwich & Chips</h3></p>
+                <p><center><center>Really hits the spot!<br/>Plain or Sesame Seed Bun<br/>Pickle, onion, tomato, and lettuce<br/>Served with our house-made chips<br/>$8.95</center></p>
+                </div>                
+                <div class="col-md-4"><p><h3>House Salad</h3></p>
+                <p><center>On the Lighter Side<br/>Your choice - with or without cheese<br/>Iceberg lettuce, tomatoes, peppers<br/>Thousand Island or Ranch Dressing<br/>Served with a dinner roll<br/>$6.95</center></p>
+                </div>
+                <div class="col-md-4"><p><h3>Brisket Sandwich & Fries></h3></p>
+                <p><center>A Taste of Texas!<br/>Smoked Brisket on thick-cut Texas<br/>Toast<br/>Cole Slaw<br/>Served with our famous thick-cut<br/>french fries<br/>$7.95</center></p>
+                </div>
+        </div>
+        <table align="center">
+                <thead>
+                    <tr>
+                        <th colspan="2"><h3>Beverages</h3></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Root Beer</td>
+                    <td>$3.00</td>
+                    </tr>
+                    <tr>
+                    <td>Bottled Water</td>
+                    <td>$1.25</td>
+                    </tr>
+                    <tr>
+                    <td>Lemonade</td>
+                    <td>$1.00</td>
+                    </tr>
+                    <tr>
+                    <td>Iced Tea</td>
+                    <td>$1.25</td>
+                    </tr>
+            </table>
+    <hr>
+    <div class="row">
+            <div class="col-md-12">
+            <p><center>
+                <h2>1 Come to Eat Place, NH  03830</h2>
+                <h2>Call Us: ITS-DELICIOUS</h2>
+                <h2>487-335-424687</h2>
+            </center></p>
+        </div>
+    </div>
+<!--<table align="center">
     <thead>
         <tr>
             <th style="font-size:20px;text-align:center;color:#D02424;">Burger & Fries</th>
@@ -92,9 +158,11 @@ body {background-color: lightcyan;
 </div>
 <footer>
     <hr>
-    <h3>1 Come to Eat Place, NH  03830</h3>
-    <h3>Call Us: ITS-DELICIOUS</h3>
-    <h3>487-335-424687</h3>
-</footer>
+    <h2>1 Come to Eat Place, NH  03830</h2>
+    <h2>Call Us: ITS-DELICIOUS</h2>
+    <h2>487-335-424687</h2>
+</footer>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

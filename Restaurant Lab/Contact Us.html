@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    <meta charset="utf-8">    
     <title>Zippy's Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link href="restaurantStyles.css"
     rel="stylesheet"
     type="text/css"/>
@@ -9,10 +13,14 @@
     <header>
         <h1>Zippy's Restaurant</h1>
         <hr> 
-        <a href="home.html" class="one">Home</a>&nbsp &nbsp
-        <a href="Menu.html" class="two">Menu</a>&nbsp &nbsp
-        <a href="Contact Us.html" class="three">Contact Us</a>
-        <!--<a href="home.html">Home</a>&nbsp &nbsp<a href="Menu.html">Menu</a>&nbsp &nbsp<a href="Contact Us.html">Contact Us</a>-->
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                <br/>                   
+                <a class="one" href="home.html"><span class="glyphicon glyphicon-home"></span></a>&nbsp &nbsp
+                <a class="two" href="Menu.html">Menu</a>&nbsp &nbsp
+                <a class="three" href="Contact Us.html">Contact Us</a>
+                </div>
+        </nav>
         <hr>
         <br/>
     </header>
@@ -67,23 +75,26 @@
                 <label id="InfoLabel" for="AdditionalInfo">Additional Information:&nbsp &nbsp</label>
                 <textarea id="Info" name="AddlInfo"></textarea><br/>
                 <br/>
-                <label>Have you been to the restaurant?:&nbsp &nbsp &nbsp &nbsp</label> 
+                <label id="BestDays" for="WhentoContact">Have you been to the restaurant?:&nbsp &nbsp &nbsp &nbsp</label> 
                 <input type="radio" name="answer" value="No" checked/>No<input type="radio" name="answer" value="Yes"/>Yes<br/>
+                <br/>
                 <br/>
                 <label>Best days to contact you: &nbsp &nbsp</label>
                 <input type="checkbox" name="One" value="M" unchecked/>M<input type="checkbox" name="Two" value="T" unchecked/>T<input type="checkbox" name="Three" value="W" unchecked/>W<input type="checkbox" name="Four" value="Th" unchecked/>Th<input type="checkbox" name="Five" value="F" unchecked/>F<br/>
             </div>
                 <br/>
                 <br/>
-                <div style="position: absolute; left: 0px; top: 550px; width:85%; text-align:center;"><input type="submit" name="send" value="Send Request"/></div>
+                <div style="position: absolute; left: 0px; top: 600px; width:85%; text-align:center;"><input type="submit" name="send" value="Send Request"/></div>
             </form> 
             <br/>
             <footer>
                 <hr>
-                <h3>1 Come to Eat Place, NH  03830</h3>
-                <h3>Call Us: ITS-DELICIOUS</h3>
-                <h3>487-335-424687</h3>
+                <h2>1 Come to Eat Place, NH  03830</h2>
+                <h2>Call Us: ITS-DELICIOUS</h2>
+                <h2>487-335-424687</h2>
             </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>        
     </body>
 </html
                 

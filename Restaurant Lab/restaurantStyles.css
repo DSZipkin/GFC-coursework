@@ -3,6 +3,18 @@ h1 {color: navy;
     text-align: center;
     font-family: 'Comic Sans MS';
 }
+
+
+h2 {color: navy;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+
+h3 {font-size:20px;
+    text-align: center;
+    color: #D02424;}
+
 a.one:link {color:royalblue;}
 a.one:visited {color:blue;}
 a.one:hover {color:purple;font-weight:bold;}
